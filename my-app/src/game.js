@@ -1,7 +1,7 @@
 import { Field, Information } from './components';
 import styles from './game.module.css';
-import { STATE_RESET } from './store/actions';
 import { useDispatch } from 'react-redux';
+import { STATE_RESET } from './store/actions';
 
 export const Game = () => {
 	const dispatch = useDispatch();
